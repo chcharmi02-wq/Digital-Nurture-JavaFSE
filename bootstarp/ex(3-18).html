@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Bootstrap 5 Assignment Showcase</title>
+</head>
+<body>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 3 : RESPONSIVE GRID -->
+<!-- ===================================================== -->
+
+<div class="container mt-5">
+    <h2>Exercise 3 - Responsive Grid</h2>
+
+    <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bg-primary text-white p-3">
+                Column 1
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bg-success text-white p-3">
+                Column 2
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bg-danger text-white p-3">
+                Column 3
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 4 : SIDEBAR LAYOUT -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 4 - Sidebar Layout</h2>
+
+    <div class="row">
+        <div class="col-md-3 bg-dark text-white p-3">
+            Sidebar
+        </div>
+
+        <div class="col-md-9 bg-light p-3">
+            Main Content Area
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 5 : ALIGNMENT -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 5 - Alignment</h2>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-4 bg-primary text-white text-center p-4">
+            Centered Content
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 6 : FLEXBOX -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 6 - Flexbox</h2>
+
+    <nav class="d-flex flex-column flex-md-row bg-dark p-3">
+        <a class="text-white me-3">Home</a>
+        <a class="text-white me-3">About</a>
+        <a class="text-white">Contact</a>
+    </nav>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 7 : TYPOGRAPHY -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 7 - Typography</h2>
+
+    <h1 class="display-1">Display Heading</h1>
+
+    <p class="lead">
+        This is a lead paragraph.
+    </p>
+
+    <p class="text-muted">
+        Muted text example.
+    </p>
+
+    <p class="fw-bold">
+        Bold text example.
+    </p>
+
+    <h4 class="text-uppercase">
+        uppercase text
+    </h4>
+
+    <h4 class="text-lowercase">
+        LOWERCASE TEXT
+    </h4>
+
+    <h4 class="text-capitalize">
+        bootstrap assignment project
+    </h4>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 8 : FORMS -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 8 - Forms</h2>
+
+    <form>
+
+        <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Full Name">
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">@</span>
+            <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email">
+        </div>
+
+        <div class="form-check mb-3">
+            <input
+                    type="checkbox"
+                    class="form-check-input">
+
+            <label class="form-check-label">
+                Accept Terms
+            </label>
+        </div>
+
+        <!-- Floating Form -->
+
+        <div class="form-floating mb-3">
+            <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email">
+
+            <label>Email</label>
+        </div>
+
+        <div class="form-floating">
+            <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password">
+
+            <label>Password</label>
+        </div>
+
+    </form>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 9 : BUTTONS -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 9 - Buttons</h2>
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-outline-primary">Outline</button>
+
+    <br><br>
+
+    <div class="btn-group">
+        <button class="btn btn-dark">Left</button>
+        <button class="btn btn-dark">Center</button>
+        <button class="btn btn-dark">Right</button>
+    </div>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 10 : NAVBAR -->
+<!-- ===================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand">Logo</a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link">Home</a>
+            </li>
+        </ul>
+
+        <form class="d-flex">
+            <input class="form-control me-2">
+            <button class="btn btn-success">
+                Search
+            </button>
+        </form>
+
+    </div>
+</nav>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 11 : CARD -->
+<!-- ===================================================== -->
+
+<div class="container">
+    <h2>Exercise 11 - Card</h2>
+
+    <div class="card" style="width:300px">
+
+        <img
+                src="https://via.placeholder.com/300"
+                class="card-img-top">
+
+        <div class="card-body">
+
+            <h5 class="card-title">
+                John Doe
+            </h5>
+
+            <p class="card-text">
+                Software Developer
+            </p>
+
+        </div>
+
+    </div>
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 12 : SPACING -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <div class="m-3 p-2 bg-light">
+        Margin and Padding Example
+    </div>
+
+    <div class="mt-4 py-5 bg-primary text-white">
+        Vertical Padding Example
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 13 : COLORS -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <div class="bg-primary text-white p-3 mb-2">
+        Primary Card
+    </div>
+
+    <div class="bg-warning p-3 mb-2">
+        Warning Card
+    </div>
+
+    <div class="bg-success text-white p-3 mb-2">
+        Success Card
+    </div>
+
+    <div class="bg-danger text-white p-3">
+        Danger Card
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 14 : DISPLAY UTILITIES -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <div class="d-none d-md-block bg-info p-3">
+        Visible on Tablets and Above
+    </div>
+
+    <div class="d-none d-lg-flex bg-warning p-3 mt-2">
+        Visible on Desktop
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 15 : BORDER & SHADOW -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <img
+            src="https://via.placeholder.com/200"
+            class="border border-primary border-3 rounded-circle">
+
+    <br><br>
+
+    <div class="card shadow-lg rounded-pill p-4">
+        Shadow Card
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 16 : POSITIONING -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <div class="position-relative d-inline-block">
+
+        <img src="https://via.placeholder.com/300">
+
+        <span
+                class="badge bg-danger position-absolute top-0 start-100 translate-middle">
+
+            5
+
+        </span>
+
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 17 : ICONS -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <h2>Exercise 17 - Icons</h2>
+
+    <i class="bi bi-facebook fs-2 me-3"></i>
+    <i class="bi bi-instagram fs-2 me-3"></i>
+    <i class="bi bi-twitter-x fs-2"></i>
+
+    <br><br>
+
+    <button class="btn btn-primary">
+        <i class="bi bi-house"></i>
+    </button>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 18 : MODAL -->
+<!-- ===================================================== -->
+
+<div class="container">
+
+    <button
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal">
+
+        Open Modal
+
+    </button>
+
+</div>
+
+<div class="modal fade" id="myModal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5>Bootstrap Modal</h5>
+            </div>
+
+            <div class="modal-body">
+                Hello from Bootstrap Modal.
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<hr>
+
+<!-- ===================================================== -->
+<!-- EXERCISE 18.2 : ACCORDION -->
+<!-- ===================================================== -->
+
+<div class="container my-5">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button
+                        class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#q1">
+
+                    What is Bootstrap?
+
+                </button>
+
+            </h2>
+
+            <div
+                    id="q1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    Bootstrap is a frontend framework.
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button
+                        class="accordion-button collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#q2">
+
+                    Why use Bootstrap?
+
+                </button>
+
+            </h2>
+
+            <div
+                    id="q2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion">
+
+                <div class="accordion-body">
+                    It helps build responsive websites quickly.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
