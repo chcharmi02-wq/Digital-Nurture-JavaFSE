@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexible Layout Using vw and vh */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 3vh;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+}
+
+.nav-menu li {
+    padding: 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Flexbox Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Event Cards */
+.event-card {
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+
+.event-card h2 {
+    margin: 10px 0;
+}
+
+.event-card p {
+    font-size: 1rem;
+}
+
+/* Media Query for Screens Smaller Than 768px */
+@media screen and (max-width: 768px) {
+
+    /* Stack Navigation Vertically */
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Event Cards Take Full Width */
+    .event-card {
+        width: 90%;
+    }
+
+    /* Reduce Font Sizes */
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    p,
+    a {
+        font-size: 4vw;
+    }
+
+    /* Reduce Image Size */
+    .event-card img {
+        width: 80%;
+    }
+}

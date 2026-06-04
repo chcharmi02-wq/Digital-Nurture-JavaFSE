@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Event Registration</title>
+
+<style>
+
+.error{
+color:red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Community Event Registration</h1>
+
+<form id="registerForm">
+
+<label>Name:</label>
+<input type="text" name="username">
+<span id="nameError" class="error"></span>
+
+<br><br>
+
+<label>Email:</label>
+<input type="email" name="email">
+<span id="emailError" class="error"></span>
+
+<br><br>
+
+<label>Select Event:</label>
+
+<select name="event">
+<option value="">Choose Event</option>
+<option>Music Fest</option>
+<option>Workshop on Baking</option>
+<option>Dance Show</option>
+</select>
+
+<span id="eventError" class="error"></span>
+
+<br><br>
+
+<button type="submit">
+Register
+</button>
+
+</form>
+
+<p id="message"></p>
+
+<script src="main.js"></script>
+
+</body>
+</html>

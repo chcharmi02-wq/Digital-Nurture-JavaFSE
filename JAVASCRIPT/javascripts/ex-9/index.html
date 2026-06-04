@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Community Events</title>
+
+<style>
+
+#loader{
+display:none;
+font-size:20px;
+}
+
+.card{
+border:1px solid black;
+padding:10px;
+margin:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Community Event Portal</h1>
+
+<button onclick="fetchUsingPromise()">
+Load (.then)
+</button>
+
+<button onclick="fetchUsingAsync()">
+Load (async/await)
+</button>
+
+<br><br>
+
+<div id="loader">
+Loading...
+</div>
+
+<div id="events"></div>
+
+<script src="main.js"></script>
+
+</body>
+</html>

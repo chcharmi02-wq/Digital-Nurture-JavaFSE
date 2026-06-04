@@ -1,0 +1,43 @@
+/* Body Background Image with Fallback Color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* Fallback color */
+    background-color: #e6f2ff;
+
+    /* Background image */
+    background-image: url("https://images.unsplash.com/photo-1480714378408-67cf0d13bc1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Gradient Background for Header */
+.section-header {
+    background: linear-gradient(to right, #0047AB, #00AEEF);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* HEX Color for Heading */
+h2 {
+    color: #003366;
+    text-align: center;
+}
+
+/* RGBA Background Color */
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* HEX Color for Paragraph Text */
+p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+}

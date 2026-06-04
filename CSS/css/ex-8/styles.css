@@ -1,0 +1,35 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Event Card - Box Model */
+.eventCard {
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+/* Outline for Selected Form Field */
+.selected-field {
+    outline: 3px solid red;
+    padding: 8px;
+}
+
+/* Visibility Example */
+.hidden-box {
+    visibility: hidden;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.none-box {
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}

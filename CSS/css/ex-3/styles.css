@@ -1,0 +1,38 @@
+/* Universal Selector - Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ID Selector - Banner Header */
+#mainHeader {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Element Selector - Style all h2 elements */
+h2 {
+    color: darkgreen;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Class Selector - Event Cards */
+.eventCard {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+}
+
+/* Grouping Selector - Style h3 and p together */
+h3,
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}

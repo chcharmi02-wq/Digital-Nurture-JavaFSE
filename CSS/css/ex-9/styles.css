@@ -1,0 +1,22 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Multi-Column News Article */
+.news-article {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
